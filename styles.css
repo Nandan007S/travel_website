@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+.mainPage{
+    width: 100%;
+    height: 70vh;
+    background: center/cover no-repeat url("https://iso.500px.com/wp-content/uploads/2022/07/Sunset-somewhere-in-Iowa-By-Vath.-Sok-2.jpeg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #f5ebe0;
+}
+#inputBox{
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: #dad7cd;
+    border: none;
+    opacity: 0.5;
+    padding: none;
+}
+
+input::placeholder{
+    text-align: center;
+}
+.mainBody{
+    background-color: #f1faee;
+}
+.container{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.card-img-top:hover{
+    opacity: 0.7;
+}
